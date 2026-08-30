@@ -3,3 +3,4 @@
 __pycache__/
 data/documents/*.pdf
 data/vector_store/
+desktop.ini
