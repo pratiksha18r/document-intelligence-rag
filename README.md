@@ -1,8 +1,8 @@
-# 📚 Document Intelligence RAG
+#  Document Intelligence RAG
 
 A document-grounded question-answering application built with Retrieval-Augmented Generation (RAG). It allows users to ask questions about indexed PDF documents and receive answers grounded in the document content.
 
-## 🎯 Project Overview
+##  Project Overview
 
 Large documents can contain useful information that is difficult to find manually.
 
@@ -20,7 +20,7 @@ The application:
 - Displays relevant source pages
 - Refuses to answer when the requested information is not found in the document
 
-## 🏗️ Architecture
+##  Architecture
 
 ```text
                     PDF DOCUMENT
@@ -75,7 +75,7 @@ The application:
 
 
 ```
-## 🔄 RAG Workflow
+##  RAG Workflow
 
 ### 1. Document Ingestion
 
@@ -142,7 +142,7 @@ Question + Retrieved Context
           Answer
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -156,18 +156,18 @@ Question + Retrieved Context
 | python-dotenv | Environment variable management |
 | NumPy | Numerical operations |
 
-## ✨ Features
+##  Features
 
-- 📄 PDF document question answering
-- 🔎 Semantic vector search
-- 🧠 Sentence Transformer embeddings
-- 💾 Persistent FAISS vector store
-- 🤖 Groq API-powered answer generation
-- 📚 Source page display
-- 🛡️ Out-of-document question handling
-- 🎨 Streamlit interface
+-  PDF document question answering
+-  Semantic vector search
+-  Sentence Transformer embeddings
+-  Persistent FAISS vector store
+-  Groq API-powered answer generation
+-  Source page display
+-  Out-of-document question handling
+-  Streamlit interface
 
-## 🧪 Evaluation
+##  Evaluation
 
 The RAG system was tested with six representative questions.
 
@@ -198,7 +198,7 @@ The system refuses to answer when the requested information is not available in 
 
 ![Out-of-Document Question](screenshot/out-of-document.png)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 document-intelligence-rag/
@@ -230,7 +230,7 @@ document-intelligence-rag/
 └── test_groq_models.py
 ```
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone the repository
 
@@ -267,7 +267,7 @@ GROQ_API_KEY=your_groq_api_key
 
 Never commit the `.env` file to GitHub.
 
-## 📄 Prepare the Vector Store
+##  Prepare the Vector Store
 
 The FAISS vector store is generated locally and is excluded from GitHub.
 
@@ -287,7 +287,7 @@ data/vector_store/
 └── chunks.json
 ```
 
-## ▶️ Run the Application
+##  Run the Application
 
 After creating the vector store, start the Streamlit application:
 
@@ -297,13 +297,13 @@ streamlit run app.py
 
 The application will open in your browser.
 
-## 🔐 Security
+##  Security
 
 Sensitive and generated files are excluded from Git using `.gitignore`.
 
 The Groq API key is loaded through an environment variable and is not stored directly in the source code.
 
-## 🚧 Current Limitations
+##  Current Limitations
 
 - Currently designed around a locally indexed document.
 - The evaluation dataset is intentionally small.
@@ -311,7 +311,7 @@ The Groq API key is loaded through an environment variable and is not stored dir
 - The application does not yet provide an in-app document upload workflow.
 - Retrieval quality depends on chunking and embedding choices.
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Multiple-document support
 - In-app PDF upload and indexing
@@ -324,7 +324,7 @@ The Groq API key is loaded through an environment variable and is not stored dir
 - Automated test suite
 - Cloud deployment
 
-## 👩‍💻 Author
+##  Author
 
 **Pratiksha Bodkhe**
 
