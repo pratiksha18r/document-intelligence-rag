@@ -75,16 +75,16 @@ The application:
 
                    ---
 
-## 📸 Application Screenshots
+# 📸 Application Screenshots
 
 ### Document-Grounded Answer
 
 The application retrieves relevant information from the indexed document and generates a grounded answer using the Groq API.
 
-![RAG Answer](screenshots/rag-answer.png)
+![RAG Answer](screenshot/rag-answer.png)
 
 ### Out-of-Document Question
 
 The system refuses to answer when the requested information is not available in the indexed document.
 
-![Out-of-Document Question](screenshots/out-of-document.png)
+![Out-of-Document Question](screenshot/out-of-document.png)
