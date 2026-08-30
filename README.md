@@ -184,7 +184,7 @@ The RAG system was tested with six representative questions.
 
 > Note: This is a small functional evaluation set and should not be interpreted as a general accuracy benchmark.
 
-## 📸 Application Screenshots
+##  Application Screenshots
 
 ### Document-Grounded Answer
 
